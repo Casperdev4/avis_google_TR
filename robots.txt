@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://incelemelerini-satin-al.com/sitemap.xml
