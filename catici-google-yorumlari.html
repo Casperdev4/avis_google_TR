@@ -36,126 +36,230 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://incelemelerini-satin-al.com/"},
-            {"@type": "ListItem", "position": 2, "name": "Çatıcı Google Yorumları", "item": "https://incelemelerini-satin-al.com/catici-google-yorumlari.html"}
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "İnceleme Satın Al",
-        "url": "https://incelemelerini-satin-al.com",
-        "logo": "https://incelemelerini-satin-al.com/google-yorum-logo.png",
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Hizmetlerimiz",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Çatıcı Google Yorumları Satın Al",
-                        "url": "https://incelemelerini-satin-al.com/catici-google-yorumlari.html"
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Ana Sayfa",
+                        "item": "https://incelemelerini-satin-al.com/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Çatıcı Google Yorumları",
+                        "item": "https://incelemelerini-satin-al.com/catici-google-yorumlari.html"
                     }
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
+                ]
+            },
             {
-                "@type": "Question",
-                "name": "Yorumlar belirli çatı işlerinden bahsediyor mu?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Evet, yorumlarımız gerçek çatı işlerinden bahseder: çatı tamiri, kiremit değişimi, çatı iskeleti bakımı, oluk montajı veya su sızıntısı tamiri. Her yorum sunduğunuz hizmetlere uygun şekilde uyarlanır."
+                "@type": "Organization",
+                "name": "İnceleme Satın Al",
+                "url": "https://incelemelerini-satin-al.com",
+                "logo": "https://incelemelerini-satin-al.com/google-yorum-logo.png",
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Hizmetlerimiz",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "çatıcı google yorumları satın al",
+                                "url": "https://incelemelerini-satin-al.com/catici-google-yorumlari.html"
+                            }
+                        }
+                    ]
                 }
             },
             {
-                "@type": "Question",
-                "name": "Bir çatı ustası için kaç Google yorumu gereklidir?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "25 ile 50 arasında bir paket genellikle sektörünüze hakim olmak için yeterlidir. Çatı firmalarının çoğunlukla çok az çevrimiçi yorumu bulunur, bu da küçük bir yatırımla hızlıca avantaj sağlamanızı mümkün kılar."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Yorumlar çatı firmamın ciddiyetini ortaya koyabilir mi?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Kesinlikle. Yorumlarımız çatı işlerinde temel güven unsurlarını öne çıkarır: ilk teklife sadakat, mükemmel su yalıtımı, temiz teslim edilen şantiye ve zamanında bitirilen işler. Bu müşteri yorumları sektördeki dolandırıcılık endişelerini ortadan kaldırır."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Google yorumları bir çatı ustasının daha fazla iş almasına yardımcı olur mu?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Evet, doğrudan. Ev sahipleri çatı işlerini emanet etmeden önce sistematik olarak puanları karşılaştırır. 4,8 yıldız puana ve onlarca ayrıntılı yoruma sahip bir çatıcı, özellikle güvenin belirleyici olduğu büyük işlerde öncelikli olarak aranır."
-                }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ItemList",
-        "name": "Olumlu Yorum Tekliflerimiz",
-        "itemListElement": [
-            {
-                "@type": "ListItem",
-                "position": 1,
-                "item": {
-                    "@type": "Product",
-                    "name": "25 Olumlu Yorum + 5 hediye",
-                    "description": "Türk hesaplarla 25 olumlu Google yorumu paketi, kişiselleştirilmiş metinler, ömür boyu garanti ve 7/24 müşteri desteği.",
-                    "image": "https://incelemelerini-satin-al.com/google-yorum-logo.png",
-                    "offers": {
-                        "@type": "Offer", "price": "99", "priceCurrency": "EUR", "availability": "https://schema.org/InStock",
-                        "shippingDetails": {"@type": "OfferShippingDetails","shippingRate": {"@type": "MonetaryAmount","value": "0","currency": "EUR"},"deliveryTime": {"@type": "ShippingDeliveryTime","handlingTime": {"@type": "QuantitativeValue","minValue": 1,"maxValue": 2,"unitCode": "DAY"},"transitTime": {"@type": "QuantitativeValue","minValue": 12,"maxValue": 30,"unitCode": "DAY"}},"shippingDestination": {"@type": "DefinedRegion","addressCountry": "TR"}},
-                        "hasMerchantReturnPolicy": {"@type": "MerchantReturnPolicy","applicableCountry": "TR","returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"}
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Yorumlar belirli çatı işlerinden bahsediyor mu?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Evet, yorumlarımız gerçek çatı işlerinden bahseder: çatı tamiri, kiremit değişimi, çatı iskeleti bakımı, oluk montajı veya su sızıntısı tamiri. Her yorum sunduğunuz hizmetlere uygun şekilde uyarlanır."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Bir çatı ustası için kaç Google yorumu gereklidir?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "25 ile 50 arasında bir paket genellikle sektörünüze hakim olmak için yeterlidir. Çatı firmalarının çoğunlukla çok az çevrimiçi yorumu bulunur, bu da küçük bir yatırımla hızlıca avantaj sağlamanızı mümkün kılar."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Yorumlar çatı firmamın ciddiyetini ortaya koyabilir mi?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Kesinlikle. Yorumlarımız çatı işlerinde temel güven unsurlarını öne çıkarır: ilk teklife sadakat, mükemmel su yalıtımı, temiz teslim edilen şantiye ve zamanında bitirilen işler. Bu müşteri yorumları sektördeki dolandırıcılık endişelerini ortadan kaldırır."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Google yorumları bir çatı ustasının daha fazla iş almasına yardımcı olur mu?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Evet, doğrudan. Ev sahipleri çatı işlerini emanet etmeden önce sistematik olarak puanları karşılaştırır. 4,8 yıldız puana ve onlarca ayrıntılı yoruma sahip bir çatıcı, özellikle güvenin belirleyici olduğu büyük işlerde öncelikli olarak aranır."
+                        }
                     }
-                }
+                ]
             },
             {
-                "@type": "ListItem",
-                "position": 2,
-                "item": {
-                    "@type": "Product",
-                    "name": "50 Olumlu Yorum + 10 hediye",
-                    "description": "Türk hesaplarla 50 olumlu Google yorumu paketi, kişiselleştirilmiş metinler, ömür boyu garanti ve 7/24 müşteri desteği.",
-                    "image": "https://incelemelerini-satin-al.com/google-yorum-logo.png",
-                    "offers": {
-                        "@type": "Offer", "price": "169", "priceCurrency": "EUR", "availability": "https://schema.org/InStock",
-                        "shippingDetails": {"@type": "OfferShippingDetails","shippingRate": {"@type": "MonetaryAmount","value": "0","currency": "EUR"},"deliveryTime": {"@type": "ShippingDeliveryTime","handlingTime": {"@type": "QuantitativeValue","minValue": 1,"maxValue": 2,"unitCode": "DAY"},"transitTime": {"@type": "QuantitativeValue","minValue": 25,"maxValue": 60,"unitCode": "DAY"}},"shippingDestination": {"@type": "DefinedRegion","addressCountry": "TR"}},
-                        "hasMerchantReturnPolicy": {"@type": "MerchantReturnPolicy","applicableCountry": "TR","returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"}
+                "@type": "ItemList",
+                "name": "Olumlu Yorum Tekliflerimiz",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Product",
+                            "name": "25 Olumlu Yorum + 5 hediye",
+                            "description": "Türk hesaplarla 25 olumlu Google yorumu paketi, kişiselleştirilmiş metinler, ömür boyu garanti ve 7/24 müşteri desteği.",
+                            "image": "https://incelemelerini-satin-al.com/google-yorum-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "99",
+                                "priceCurrency": "EUR",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "EUR"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 12,
+                                            "maxValue": 30,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "TR"
+                                    }
+                                },
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "TR",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Product",
+                            "name": "50 Olumlu Yorum + 10 hediye",
+                            "description": "Türk hesaplarla 50 olumlu Google yorumu paketi, kişiselleştirilmiş metinler, ömür boyu garanti ve 7/24 müşteri desteği.",
+                            "image": "https://incelemelerini-satin-al.com/google-yorum-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "169",
+                                "priceCurrency": "EUR",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "EUR"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 25,
+                                            "maxValue": 60,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "TR"
+                                    }
+                                },
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "TR",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Product",
+                            "name": "100 Olumlu Yorum + 20 hediye",
+                            "description": "Türk hesaplarla 100 olumlu Google yorumu paketi, kişiselleştirilmiş metinler, ömür boyu garanti ve 7/24 müşteri desteği.",
+                            "image": "https://incelemelerini-satin-al.com/google-yorum-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "279",
+                                "priceCurrency": "EUR",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "EUR"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 50,
+                                            "maxValue": 120,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "TR"
+                                    }
+                                },
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "TR",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                                }
+                            }
+                        }
                     }
-                }
-            },
-            {
-                "@type": "ListItem",
-                "position": 3,
-                "item": {
-                    "@type": "Product",
-                    "name": "100 Olumlu Yorum + 20 hediye",
-                    "description": "Türk hesaplarla 100 olumlu Google yorumu paketi, kişiselleştirilmiş metinler, ömür boyu garanti ve 7/24 müşteri desteği.",
-                    "image": "https://incelemelerini-satin-al.com/google-yorum-logo.png",
-                    "offers": {
-                        "@type": "Offer", "price": "279", "priceCurrency": "EUR", "availability": "https://schema.org/InStock",
-                        "shippingDetails": {"@type": "OfferShippingDetails","shippingRate": {"@type": "MonetaryAmount","value": "0","currency": "EUR"},"deliveryTime": {"@type": "ShippingDeliveryTime","handlingTime": {"@type": "QuantitativeValue","minValue": 1,"maxValue": 2,"unitCode": "DAY"},"transitTime": {"@type": "QuantitativeValue","minValue": 50,"maxValue": 120,"unitCode": "DAY"}},"shippingDestination": {"@type": "DefinedRegion","addressCountry": "TR"}},
-                        "hasMerchantReturnPolicy": {"@type": "MerchantReturnPolicy","applicableCountry": "TR","returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"}
-                    }
-                }
+                ]
             }
         ]
     }

@@ -34,25 +34,235 @@
     <meta name="twitter:image" content="https://incelemelerini-satin-al.com/google-yorumlari-satin-al.png">
 
     <script type="application/ld+json">
-    {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Ana Sayfa","item":"https://incelemelerini-satin-al.com/"},{"@type":"ListItem","position":2,"name":"Şirket Google Yorumları","item":"https://incelemelerini-satin-al.com/sirket-google-yorumlari.html"}]}
-    </script>
-    <script type="application/ld+json">
-    {"@context":"https://schema.org","@type":"Organization","name":"İnceleme Satın Al","url":"https://incelemelerini-satin-al.com","logo":"https://incelemelerini-satin-al.com/google-yorum-logo.png","hasOfferCatalog":{"@type":"OfferCatalog","name":"Hizmetlerimiz","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Şirket Google Yorumları Satın Al","url":"https://incelemelerini-satin-al.com/sirket-google-yorumlari.html"}}]}}
-    </script>
-    <script type="application/ld+json">
-    {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-        {"@type":"Question","name":"Hangi tür şirketler Google yorumu satın alabilir?","acceptedAnswer":{"@type":"Answer","text":"Google İşletme Profili olan her şirket: restoranlar, mağazalar, zanaatkarlar, serbest meslek sahipleri, KOBİ'ler, franchise işletmeleri, emlak ofisleri, oto tamircileri, oteller vb."}},
-        {"@type":"Question","name":"Yorumlar faaliyet alanıma göre uyarlanıyor mu?","acceptedAnswer":{"@type":"Answer","text":"Evet, her yorumu mesleğinize göre kişiselleştiriyoruz. Metinler maksimum güvenilirlik ve uygunluk için faaliyetinizin spesifik yönlerinden bahseder."}},
-        {"@type":"Question","name":"Birden fazla işletme için sipariş vermek mümkün mü?","acceptedAnswer":{"@type":"Answer","text":"Evet, çok şubeli siparişleri yönetiyoruz. Her profil benzersiz ve bağlama uygun yorumlar alır. Özel teklif için bizimle iletişime geçin."}},
-        {"@type":"Question","name":"Yorumlar şirketimi nasıl etkiler?","acceptedAnswer":{"@type":"Answer","text":"Yorumlar yerel görünürlüğünüzü artırır, potansiyel müşterilerin güvenini sağlamlaştırır ve dönüşüm oranınızı iyileştirir. İyi puanlı bir şirket %9'a varan ek ciro elde eder."}}
-    ]}
-    </script>
-    <script type="application/ld+json">
-    {"@context":"https://schema.org","@type":"ItemList","name":"Olumlu Yorum Tekliflerimiz","itemListElement":[
-        {"@type":"ListItem","position":1,"item":{"@type":"Product","name":"25 Olumlu Yorum + 5 hediye","description":"Türk hesaplarla 25 olumlu Google yorumu paketi, kişiselleştirilmiş metinler, ömür boyu garanti ve 7/24 müşteri desteği.","image":"https://incelemelerini-satin-al.com/google-yorum-logo.png","offers":{"@type":"Offer","price":"99","priceCurrency":"EUR","availability":"https://schema.org/InStock","shippingDetails":{"@type":"OfferShippingDetails","shippingRate":{"@type":"MonetaryAmount","value":"0","currency":"EUR"},"deliveryTime":{"@type":"ShippingDeliveryTime","handlingTime":{"@type":"QuantitativeValue","minValue":1,"maxValue":2,"unitCode":"DAY"},"transitTime":{"@type":"QuantitativeValue","minValue":12,"maxValue":30,"unitCode":"DAY"}},"shippingDestination":{"@type":"DefinedRegion","addressCountry":"TR"}},"hasMerchantReturnPolicy":{"@type":"MerchantReturnPolicy","applicableCountry":"TR","returnPolicyCategory":"https://schema.org/MerchantReturnNotPermitted"}}}},
-        {"@type":"ListItem","position":2,"item":{"@type":"Product","name":"50 Olumlu Yorum + 10 hediye","description":"Türk hesaplarla 50 olumlu Google yorumu paketi, kişiselleştirilmiş metinler, ömür boyu garanti ve 7/24 müşteri desteği.","image":"https://incelemelerini-satin-al.com/google-yorum-logo.png","offers":{"@type":"Offer","price":"169","priceCurrency":"EUR","availability":"https://schema.org/InStock","shippingDetails":{"@type":"OfferShippingDetails","shippingRate":{"@type":"MonetaryAmount","value":"0","currency":"EUR"},"deliveryTime":{"@type":"ShippingDeliveryTime","handlingTime":{"@type":"QuantitativeValue","minValue":1,"maxValue":2,"unitCode":"DAY"},"transitTime":{"@type":"QuantitativeValue","minValue":25,"maxValue":60,"unitCode":"DAY"}},"shippingDestination":{"@type":"DefinedRegion","addressCountry":"TR"}},"hasMerchantReturnPolicy":{"@type":"MerchantReturnPolicy","applicableCountry":"TR","returnPolicyCategory":"https://schema.org/MerchantReturnNotPermitted"}}}},
-        {"@type":"ListItem","position":3,"item":{"@type":"Product","name":"100 Olumlu Yorum + 20 hediye","description":"Türk hesaplarla 100 olumlu Google yorumu paketi, kişiselleştirilmiş metinler, ömür boyu garanti ve 7/24 müşteri desteği.","image":"https://incelemelerini-satin-al.com/google-yorum-logo.png","offers":{"@type":"Offer","price":"279","priceCurrency":"EUR","availability":"https://schema.org/InStock","shippingDetails":{"@type":"OfferShippingDetails","shippingRate":{"@type":"MonetaryAmount","value":"0","currency":"EUR"},"deliveryTime":{"@type":"ShippingDeliveryTime","handlingTime":{"@type":"QuantitativeValue","minValue":1,"maxValue":2,"unitCode":"DAY"},"transitTime":{"@type":"QuantitativeValue","minValue":50,"maxValue":120,"unitCode":"DAY"}},"shippingDestination":{"@type":"DefinedRegion","addressCountry":"TR"}},"hasMerchantReturnPolicy":{"@type":"MerchantReturnPolicy","applicableCountry":"TR","returnPolicyCategory":"https://schema.org/MerchantReturnNotPermitted"}}}}
-    ]}
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Ana Sayfa",
+                        "item": "https://incelemelerini-satin-al.com/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Şirket Google Yorumları",
+                        "item": "https://incelemelerini-satin-al.com/sirket-google-yorumlari.html"
+                    }
+                ]
+            },
+            {
+                "@type": "Organization",
+                "name": "İnceleme Satın Al",
+                "url": "https://incelemelerini-satin-al.com",
+                "logo": "https://incelemelerini-satin-al.com/google-yorum-logo.png",
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Hizmetlerimiz",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "şirket google yorumları satın al",
+                                "url": "https://incelemelerini-satin-al.com/sirket-google-yorumlari.html"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Hangi tür şirketler Google yorumu satın alabilir?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Google İşletme Profili olan her şirket: restoranlar, mağazalar, zanaatkarlar, serbest meslek sahipleri, KOBİ'ler, franchise işletmeleri, emlak ofisleri, oto tamircileri, oteller vb."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Yorumlar faaliyet alanıma göre uyarlanıyor mu?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Evet, her yorumu mesleğinize göre kişiselleştiriyoruz. Metinler maksimum güvenilirlik ve uygunluk için faaliyetinizin spesifik yönlerinden bahseder."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Birden fazla işletme için sipariş vermek mümkün mü?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Evet, çok şubeli siparişleri yönetiyoruz. Her profil benzersiz ve bağlama uygun yorumlar alır. Özel teklif için bizimle iletişime geçin."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Yorumlar şirketimi nasıl etkiler?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yorumlar yerel görünürlüğünüzü artırır, potansiyel müşterilerin güvenini sağlamlaştırır ve dönüşüm oranınızı iyileştirir. İyi puanlı bir şirket %9'a varan ek ciro elde eder."
+                        }
+                    }
+                ]
+            },
+            {
+                "@type": "ItemList",
+                "name": "Olumlu Yorum Tekliflerimiz",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Product",
+                            "name": "25 Olumlu Yorum + 5 hediye",
+                            "description": "Türk hesaplarla 25 olumlu Google yorumu paketi, kişiselleştirilmiş metinler, ömür boyu garanti ve 7/24 müşteri desteği.",
+                            "image": "https://incelemelerini-satin-al.com/google-yorum-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "99",
+                                "priceCurrency": "EUR",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "EUR"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 12,
+                                            "maxValue": 30,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "TR"
+                                    }
+                                },
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "TR",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Product",
+                            "name": "50 Olumlu Yorum + 10 hediye",
+                            "description": "Türk hesaplarla 50 olumlu Google yorumu paketi, kişiselleştirilmiş metinler, ömür boyu garanti ve 7/24 müşteri desteği.",
+                            "image": "https://incelemelerini-satin-al.com/google-yorum-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "169",
+                                "priceCurrency": "EUR",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "EUR"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 25,
+                                            "maxValue": 60,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "TR"
+                                    }
+                                },
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "TR",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Product",
+                            "name": "100 Olumlu Yorum + 20 hediye",
+                            "description": "Türk hesaplarla 100 olumlu Google yorumu paketi, kişiselleştirilmiş metinler, ömür boyu garanti ve 7/24 müşteri desteği.",
+                            "image": "https://incelemelerini-satin-al.com/google-yorum-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "279",
+                                "priceCurrency": "EUR",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "EUR"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 50,
+                                            "maxValue": 120,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "TR"
+                                    }
+                                },
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "TR",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
     </script>
 </head>
 <body>
